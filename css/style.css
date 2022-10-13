@@ -1,3 +1,4 @@
+/* general */
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,132 @@ body{
 }
 
 .wrapper{
-  width: 75%;
-  max-width: 0 12.5%;  
+  margin: 0 12.5%;  
 }
+
+.hidden{
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: -1px;
+}
+/* end general */
+
+.site-header{
+    background-color: #222222;
+    color: #D4D4D4;
+}
+
+.site-header .wrapper{
+    background-image: url(../img/moon-rocket\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right 140px;
+    
+    padding-top: 54px;
+    padding-bottom: 180px;
+}
+
+.main-nav{
+    display: flex;
+    margin-bottom: 113px;
+}
+
+.logo{
+    width: 62px;
+    height: 62px;
+    margin-right: 62px;
+}
+
+ul{
+    list-style: none;
+}
+
+.site-menu{
+    display: flex;
+    margin-top: 31px;
+}
+
+.site-menu a {
+    text-decoration: none;
+    display: block;
+    color: #D4D4D4;
+    margin-right: 30px;
+}
+
+/* .site-menu li:last-child>a{
+    margin-right: 0;
+} */
+
+/* contact menu */
+.contact-menu{
+    display: flex;
+    margin-top: 31px;
+    margin-left: auto;
+    column-gap: 24px;
+}
+
+.contact-menu .icon{
+    width: 17px;
+    height: 17px;
+    display: block;
+}
+
+.contact-menu .icon-mail{
+    background: url("../img/mail-icon\ 1.png") no-repeat;
+}
+
+.contact-menu .icon-phone{
+    background: url("../img/phone-icon\ 1.png") no-repeat;
+}
+/* end contact menu */
+
+/* section about us */
+.about-us{
+    width: 320px;
+    padding-left: 126px;
+}
+
+.about-us h1{
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    line-height: 51px;
+    margin-bottom: 30px;
+    width: 244px;
+}
+
+.about-us p{
+    margin-bottom: 54px;
+    width: 254px;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    padding: 17px 38px;
+    padding-right: 100px;
+    cursor: pointer;
+    /* width: 232px; */
+}
+
+.btn::after{
+    content: "";
+
+    position: absolute;
+    width: 19px;
+    height: 16px;
+    right: 17px;
+
+    background: url(../img/right-arrow-dark\ 1.png) no-repeat;
+}
+
+.btn-yellow{
+    background-color: #FFCB06;
+}
+/* end section about us */
