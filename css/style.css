@@ -8,6 +8,7 @@ body{
     font-size: 14px;
     line-height: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D4D4D4;
 }
 
 .wrapper{
@@ -25,7 +26,6 @@ body{
 
 .site-header{
     background-color: #222222;
-    color: #D4D4D4;
 }
 
 .site-header .wrapper{
@@ -140,3 +140,109 @@ ul{
     background-color: #FFCB06;
 }
 /* end section about us */
+
+/* main */
+
+/* section advantage */
+.advantage{
+    background-color: #131313;
+    padding-top: 85px;
+    padding-bottom: 79px;
+}
+
+.advantage-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.advantage-list li{
+    padding-top: 102px;
+    width: 172px;
+}
+
+.advantage-list li::after{
+    content: "";
+    width: 60px;
+    height: 68px;
+}
+
+.advantage-made{
+    background: url(../img/advantage-icon-1\ 1.png) no-repeat;
+}
+.advantage-food{
+    background: url(../img/advantage-icon-2\ 1.png) no-repeat;
+
+}
+.advantage-pilot{
+    background: url(../img/advantage-icon-3\ 1.png) no-repeat;
+
+}
+.advantage-rover{
+    background: url(../img/advantage-icon-4\ 1.png) no-repeat;
+
+}
+/* end section advantage */
+
+/* section vacation */
+.content{
+    padding: 80px 0 98px;
+    color: #000000;
+
+}
+
+.column-container{
+    display: flex;
+    gap: 10px 80px;
+    /* flex-wrap: wrap; */
+}
+
+.left-column, .right-column{
+    max-width: 480px;
+}
+
+.content p{
+    margin-top: 24px;
+}
+
+.lead{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 27px;
+    font-weight: bold;
+}
+.content  p.lead{
+    margin: 0 0 44px;
+}
+
+.recomendation-list{
+    padding-left: 30px;
+}
+
+.recomendation-list li{
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.recomendation-list li::before{
+    content: "";
+    background: #FFCB06;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+
+    position: absolute;
+    left: -23px;
+    top: 5px;
+}
+
+h3.lead{
+    margin-bottom: 27px;
+}
+
+.content .wrapper:first-child{
+    margin-bottom: 52px;
+}
+/* end section vacation */
+/* end main */
