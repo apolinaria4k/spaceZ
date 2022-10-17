@@ -244,5 +244,92 @@ h3.lead{
 .content .wrapper:first-child{
     margin-bottom: 52px;
 }
+
+/* start form */
+.vacation-request{
+    padding: 68px 0;
+    color: #000000;
+    background-color: #f0f0f0;
+}
+
+.vacation-request .lead{
+    margin: 32px 0 60px;
+}
+
+.vacation-request .p{
+    width: 340px;
+}
+
+.vacation-form{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    /* column-gap: 10px; */
+}
+
+.vacation-form div{
+    width: 100%;
+}
+
+.vacation-form input[type="tel"], .vacation-form input[type="text"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px 17px 23px;
+}
+
+.vacation-form .half-field{
+    width: 49%;
+    margin-bottom: 11px;
+}
+
+
+.vacation-form input[type="checkbox"] ~ label::before{
+    content: "\2713";
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+    height: 25px;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #FFFFFF;
+
+    margin-right: 1em;
+    border: 1px solid #FFFFFF ;
+}
+
+.vacation-form input[type="checkbox"]:checked ~ label::before{
+    color: #000000;
+}
+
+.vacation-form input[type="checkbox"]:hover ~ label::before{
+    cursor: pointer;
+}
+
+.btn-black{
+    background-color: #222222;
+    color: #FFFFFF;
+
+    margin-top: 32px;
+}
+
+.btn-black::after{
+    background: url(../img/right-arrow-white\ 1.png) no-repeat;
+}
+
+/* end form */
+
 /* end section vacation */
+
+/* section form */
+
+/* end section form */
+
+/* section table */
+
+/* end section table */
 /* end main */
