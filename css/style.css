@@ -322,14 +322,55 @@ h3.lead{
 }
 
 /* end form */
-
 /* end section vacation */
 
-/* section form */
+/* section timetable */
+.timetable{
+    background-color: #222222;
+    padding: 97px 0 85px;
+}
 
-/* end section form */
+.timetable-info{
+    display: flex;
+    margin-bottom: 77px;
+    gap: 20px 40px;
+}
 
-/* section table */
 
-/* end section table */
+.timetable-info h2{
+    color: #FECA30;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    line-height: 27px;
+
+    width: 159px;
+}
+
+.timetable-info p{
+    margin-left: auto;
+    width: 467px;
+}
+
+.timetable-info a {
+    color: #FECA30;
+}
+
+.timetable-flights{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timetable-flights tbody>tr{
+    border-bottom: 1px solid #555555;
+}
+
+.timetable-flights th, .timetable-flights td{
+    padding: 15px;
+}
+
+.timetable-flights th{
+    background: #111;
+    text-align: left;
+}
+/* end section timetable */
 /* end main */
