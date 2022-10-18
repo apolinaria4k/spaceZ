@@ -374,3 +374,73 @@ h3.lead{
 }
 /* end section timetable */
 /* end main */
+
+/* footer */
+.site-footer{
+    background-color: #131313;
+    padding: 60px 0 84px;
+}
+
+.footer-columns{
+    display: flex;
+}
+
+.site-footer .left-column{
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 98px;
+}
+
+.logo-container{
+    display: flex;
+    /* align-items: center; */
+}
+
+.logo-container .logo{
+    margin: 0;
+}
+
+.company-title{
+    color: #D4D4D4;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    
+}
+
+.copyright{
+    color: #555555;
+
+}
+
+.site-footer .right-column{
+    padding-top: 30px;
+    display: flex;
+}
+
+
+.site-footer .right-column a{
+    text-decoration: none;
+    color: #888888;
+}
+
+.footer-menu .footer-submenu-title{
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #D4D4D4;
+
+    border-bottom: 1px solid #555555;
+    padding-bottom: 12px;
+    margin: 0 80px 58px 0;
+}
+
+.footer-submenu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+/* end footer */
