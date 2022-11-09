@@ -1,0 +1,51 @@
+.site-menu a:hover, .site-footer a:hover{
+    color: #FFCB06;
+}
+
+.site-menu a:active, .site-footer a:active{
+    color: #363636;
+}
+
+.vacation-form [type="text"]:focus, .vacation-form [type="tel"]:focus{
+    outline-color: #FFCB06;
+    border-color: #FFCB06;
+}
+
+.vacation-form [placeholder]::placeholder{
+    color: #000;
+}
+
+.vacation-form [type="checkbox"]:not(:disabled):not(:checked) ~ label:hover::before{
+    background-color: #FFCB06;
+}
+
+.vacation-form [type="checkbox"]:not(:disabled):checked ~ label:hover::before{
+    border-color: #FFCB06;
+}
+
+.btn-black:hover{
+    box-shadow: 10px 5px 5px #FFCB06;
+}
+
+.btn-yellow:hover{
+    background-color: #767676;
+}
+
+.timetable-info a:hover{
+    color: #FFFFFF;
+    filter: drop-shadow(5px 3px 3px #ffcb06);
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.logo:hover img{
+    transform:  rotate(45deg);
+    transition: 3s;
+    transition-delay: 0.5s;
+}
+
+.about-us>h1{
+    transform: rotate(180deg);
+}

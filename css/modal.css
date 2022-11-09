@@ -1,0 +1,25 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c;
+    z-index: 99;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_opened{
+    display: flex;
+}
+
+.modal_body{
+    background-color: rgb(230, 232, 235);
+    border-radius: 25px;
+    color: black;
+    padding: 20px;
+}
+
+.close-modal{
+    background: rebeccapurple;
+}
